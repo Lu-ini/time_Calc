@@ -1,0 +1,17 @@
+#corpo {
+    background-color: rgb(255, 255, 255);
+}
+
+.fundo {
+    height: 100vh;
+    width: 250px;
+    margin: auto;
+    background-color: rgb(119, 108, 239);
+    text-align: center;
+    box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.346);
+}
+
+#grafico {
+    background-color: azure;
+    height: 120px;
+}
