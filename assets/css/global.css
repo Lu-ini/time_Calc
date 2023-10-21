@@ -11,7 +11,34 @@
     box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.346);
 }
 
-#grafico {
+.programa {
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+.programa #grafico {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin: auto;
     background-color: azure;
-    height: 120px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 8px 3px rgba(0, 0, 0, 0.307);
+}
+
+.programa #historico {
+    border: 2px solid azure;
+    background-color: rgba(240, 255, 255, 0.183);
+    height: 180px;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 8px 3px rgba(0, 0, 0, 0.307);
+    border-radius: 10px;
+}
+
+.programa #insert {
+    margin-top: 30px;
 }
